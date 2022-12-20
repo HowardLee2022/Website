@@ -1,0 +1,369 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+
+}
+
+header{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    min-height: 5vh;
+    background-color:moccasin;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header h1{
+    font-size: 40px;
+    width:300px;
+    height: 100px;
+    color: white;
+    background-color: cornflowerblue;
+    padding: 20px;
+}
+
+header nav ul{
+   display: flex;
+   align-items: flex-end;
+   list-style: none;
+  
+}
+
+header nav li{
+    margin:30px;
+    position:relative;
+    right:10%;
+    border-bottom: 3px solid white;
+    font-weight: bold;
+    font-size: 20px;
+    color:white
+}
+
+main{
+    min-height:80vh;
+    background-color: cornflowerblue;
+}
+
+figure{
+    height:200px;
+}
+
+figure h2{
+    width:240px;
+    height:80px;
+    padding: 20px;
+    position: relative;;
+    background-color: cornflowerblue;
+    color:white;
+    left:85%;
+    top:40%;
+    border: 4px solid moccasin;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:10px;
+}
+
+.section1 aside{
+    display: flex;
+    justify-content:right;
+    border-right: 4px solid moccasin;
+    margin-right: 20px;
+    padding:20px;
+    color:white;
+    width: 20%;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.section1 pre{
+    width:100%;
+    font-size: 20px;
+    padding:20px;
+    margin:10px;
+    color: white;
+}
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+  
+}
+
+.section2 aside{
+    display: flex;
+    justify-content:right;
+    border-right: 4px solid moccasin;
+    margin-right: 20px;
+    padding:20px;
+    color:white;
+    width: 20%;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.section2 div{
+    width: 100%
+}
+
+
+
+.section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+  
+}
+
+.section3 aside{
+    display: flex;
+    justify-content:right;
+    border-right: 4px solid moccasin;
+    margin-right: 20px;
+    padding:20px;
+    color:white;
+    width: 20%;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.section3 div{
+    width: 100%
+}
+
+
+.section3 nav{
+    margin:10px;
+    width:100%
+}
+
+.section3 nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section3 nav ul li{
+    border-bottom:4px solid moccasin;
+    margin:30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    margin:10px
+}
+
+.row{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.card1{
+    background: azure;
+    position: relative;
+    flex:1;
+    max-width: 100%;
+    height: 300px;
+    margin: 10px;
+    border: 5px  solid moccasin;
+    opacity: 50%;
+
+}
+
+
+.title{
+    border: 5px solid moccasin;
+    max-width: 120px;
+    position: relative;
+    background-color: cornflowerblue;
+    top:60%;
+    padding:10px;
+    right:5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white
+}  
+
+
+
+.title2{
+    border: 5px solid moccasin;
+    max-width: 120px;
+    position: relative;
+    background-color: cornflowerblue;
+    top:50%;
+    padding:10px;
+    right:5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white
+}
+
+.title p, .title2 p{
+    font-size: 15px;
+}
+
+.card2{
+    background: azure;
+    position: relative;
+    flex: 1;
+    max-width: 100% ;
+    height: 210px;
+    margin: 10px;
+    opacity: 50%;
+    border: 5px  solid moccasin;
+}
+
+#image1{
+    background-image:url(./5akxfhe066q41.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#image2{
+    background-image:url(./picture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#image3{
+    background-image:url(./picture\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#image4{
+    background-image:url(./picture\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#image{
+    background-image:url(./Header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.card1:hover, .card2:hover{
+    opacity:100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:900px){
+
+    /* header{
+        flex-direction:column;
+    
+    } */
+
+
+    .card2{
+        flex:100%;
+        max-width: 900x;
+    }
+
+ 
+
+    .section1, .section2, .section3{
+        display:flex;
+        flex-direction: column;
+        
+    }
+
+    .section1 aside, .section2 aside, .section3 aside{
+        display: flex;
+        justify-content:center;
+        border-bottom: 2px solid white;
+        border-right: 0px;
+        color:white;
+        width:100%
+    
+}
+
+}
